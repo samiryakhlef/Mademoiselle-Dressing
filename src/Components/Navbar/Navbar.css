@@ -1,0 +1,52 @@
+/* Default styles for desktop */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Media queries for mobile */
+@media only screen and (max-width: 981px) {
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .menu {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .search {
+        margin-top: 20px;
+    }
+
+    .search input[type="text"] {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .search button {
+        margin-left: 10px;
+    }
+
+    .account {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .account a {
+        margin-bottom: 10px;
+    }
+}
