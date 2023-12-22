@@ -9,7 +9,7 @@ nav {
 }
 
 /* Media queries for mobile */
-@media only screen and (max-width: 981px) {
+ @media only screen and (max-width: 981px) {
     nav {
         flex-direction: column;
         padding: 10px;
@@ -48,5 +48,5 @@ nav {
 
     .account a {
         margin-bottom: 10px;
-    }
+    } 
 }

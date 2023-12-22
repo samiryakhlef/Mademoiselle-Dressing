@@ -1,28 +1,36 @@
-import './Menu.css'
+import './Menu.css';
+import { Link } from 'react-router-dom';
 
 export const Menu = () => {
+    const currentPath = window.location.pathname;
+
     return (
         <>
             <div className="logo">
-                <img src="logo.png" alt="Logo" />
+                <img src="logo.png" />
             </div>
+
             <ul className="menu">
-                <li>
-                    <a href="#">Accueil</a>
+                <li className={currentPath === '/' ? 'active' : ''}>
+                    <Link to="/">Accueil</Link>
                 </li>
-                <li>
-                    <a href="#">Nouveautés</a>
+
+                <li className={currentPath === '/nouveautes' ? 'active' : ''}>
+                    <Link to="/nouveautes">Nouveautés</Link>
                 </li>
-                <li>
-                    <a href="#">Collection Femme</a>
+
+                <li className={currentPath === '/collection-femme' ? 'active' : ''}>
+                    <Link to="/collection-femme">Collection Femme</Link>
                 </li>
-                <li>
-                    <a href="#">Accessoires</a>
+
+                <li className={currentPath === '/accessoires' ? 'active' : ''}>
+                    <Link to="/accessoires">Accessoires</Link>
                 </li>
-                <li>
-                    <a href="#">A Propos</a>
+
+                <li className={currentPath === '/a-propos' ? 'active' : ''}>
+                    <Link to="/a-propos">A Propos</Link>
                 </li>
             </ul>
         </>
-    )
+    );
 }

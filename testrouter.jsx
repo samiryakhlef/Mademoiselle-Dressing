@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
 import { Navbar } from "./Components/Navbar/Navbar";
 import { Home } from "./Pages/Home/Home";
+import { About } from "./Pages/About/About";
+import { Accessories } from "./Pages/Accessories/Accessories";
 import { NewArrivals } from "./Pages/NewArrivals/NewArrivals";
 import { WomensCollection } from "./Pages/WomensCollection/WomensCollection";
-import { Accessories } from "./Pages/Accessories/Accessories";
-import { About } from './Pages/About/About.jsx';
-import { Products } from "./Pages/Products/Products.jsx";
 
 function App() {
   return (
@@ -18,12 +18,10 @@ function App() {
           <Route path="/collection-femme" element={<WomensCollection />} />
           <Route path="/accessoires" element={<Accessories />} />
           <Route path="/a-propos" element={<About />} />
-          <Route path="/produits/:id/:title" element={<Products />} />
         </Routes>
       </BrowserRouter>
     </>
   );
-
 }
 
 export default App;
