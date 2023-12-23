@@ -29,7 +29,7 @@ export const Home = () => {
   return (
     <div>
       <img className="imageHome" src={photo} alt="Photo" />
-      <div className="text">{text}</div>
+      <div className="home-text">{text}</div>
       <button className="Home-button" onClick={handleClick}>{buttonText}</button>
       <div>
         <Categories />

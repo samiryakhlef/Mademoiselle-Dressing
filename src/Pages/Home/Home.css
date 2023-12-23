@@ -6,16 +6,16 @@
     width: 100%;
     height: 350px;
 }
-.text {
+.home-text {
     position: absolute;
-    top: 95%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 18px;
 }
 .Home-button {
     position: absolute;
-    top: 100%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, 50%);
     padding: 10px 20px;
