@@ -1,24 +1,21 @@
-.container-home{
-    position: relative;
+.imageHome{
     width: 100%;
-    max-width: 1519px;
     height: 550px;
-    text-align: center;
 }
 .container-home img {
     width: 100%;
     height: 350px;
 }
-.container-home .text {
+.text {
     position: absolute;
-    top: 50%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 18px;
 }
-.container-home button {
+.Home-button {
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, 50%);
     padding: 10px 20px;

@@ -1,6 +1,6 @@
 import "./Newsletter.css";
 
-const Newsletter = () => {
+export const Newsletter = () => {
     return (
         <div className="newsletter">
             <div className="newsletter-banner">
@@ -15,4 +15,3 @@ const Newsletter = () => {
     );
 }
 
-export default Newsletter;

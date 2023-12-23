@@ -2,10 +2,10 @@ import { useState } from "react";
 import "./Home.css";
 import "../../Components/ExclusiveReleases/ExclusiveReleases.css";
 import { DealsBar } from "./DealsBar/DealsBar";
-import Categories from "./Categories/Categories";
+import { Categories } from "./Categories/Categories";
 import { ExclusiveReleases } from "../../Components/ExclusiveReleases/ExclusiveReleases";
-import Newsletter from "../../Components/Newsletter/Newsletter";
-import Footer from "../../Components/Footer/Footer";
+import { Newsletter } from "../../Components/Newsletter/Newsletter";
+import { Footer } from "../../Components/Footer/Footer";
 
 /**
  * Composant Home.
@@ -27,16 +27,16 @@ export const Home = () => {
 
   // Rendu du composant
   return (
-    <div className="container-home">
-      <img src={photo} alt="Photo" />
+    <div>
+      <img className="imageHome" src={photo} alt="Photo" />
       <div className="text">{text}</div>
-      <button onClick={handleClick}>{buttonText}</button>
+      <button className="Home-button" onClick={handleClick}>{buttonText}</button>
       <div>
         <Categories />
         <DealsBar />
-        <ExclusiveReleases/>
-        <Newsletter/>
-        <Footer/>
+        <ExclusiveReleases />
+        <Newsletter />
+        <Footer />
       </div>
     </div>
   );

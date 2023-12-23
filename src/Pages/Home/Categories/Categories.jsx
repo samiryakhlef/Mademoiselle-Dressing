@@ -1,29 +1,27 @@
 // Categories.js
+import { Link } from 'react-router-dom';
 import "./Categories.css";
 
 const dataCategories = [
-    { id: 1, name: "Catégorie 1", image: "image1.jpg" },
-    { id: 2, name: "Catégorie 2", image: "image2.jpg" },
-    { id: 3, name: "Catégorie 3", image: "image3.jpg" },
-    { id: 4, name: "Catégorie 4", image: "image4.jpg" },
+    { id: 0, name: "hommes", image: "image1.jpg" },
+    { id: 1, name: "femmes", image: "image2.jpg" },
+    { id: 2, name: "accessoires", image: "image3.jpg" },
+    { id: 3, name: "chaussures", image: "image4.jpg" },
 ];
 
-const Categories = () => {
-    const renderCategories = dataCategories.map((category, index) => {
-        console.log("Rendering category:", category);
+export const Categories = () => {
+
+    const renderCategories = dataCategories.map((category) => {
         return (
-            <div className="category" key={index}>
+            <Link to={`/categories/${category.id}/${category.name}`} key={category.id} className="category">
                 <img className="category-image" src="https://via.placeholder.com/100" alt="" />
                 <span className="category-name">{category.name}</span>
-            </div>
+            </Link>
         );
     });
-
-    console.log("Rendered categories:", renderCategories);
 
     return <div className="categories">
         {renderCategories}
     </div>;
 };
 
-export default Categories;

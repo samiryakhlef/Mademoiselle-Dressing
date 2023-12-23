@@ -18,19 +18,23 @@
 
 .exclusiveTitle {
     position: absolute;
-    top: 47%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
     text-align: center;
-    color: rgb(11, 11, 11);
+    color: rgb(0, 0, 0);
     font-size: 24px;
 }
 
 .exclusiveButton {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 1;
-    background-color: #000000;
-    color: #000;
+    background-color: #007bff;
+    color: #ffffff;
     font-size: 18px;
     border: none;
 }
