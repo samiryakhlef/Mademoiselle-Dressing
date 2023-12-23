@@ -1,38 +1,29 @@
-import { useState } from "react";
+// Categories.js
 import "./Categories.css";
+
+const dataCategories = [
+    { id: 1, name: "Catégorie 1", image: "image1.jpg" },
+    { id: 2, name: "Catégorie 2", image: "image2.jpg" },
+    { id: 3, name: "Catégorie 3", image: "image3.jpg" },
+    { id: 4, name: "Catégorie 4", image: "image4.jpg" },
+];
+
 const Categories = () => {
-
-    const [categories, setCategories] = useState([]);
-
-    const fetchCategories = async () => {
-        const response = await fetch('https://fakestoreapi.com/products/categories');
-        const data = await response.json();
-        setCategories(data);
-    }
-
-    fetchCategories();
-
-
-    const dataCategories = categories.map((category, index) => {
+    const renderCategories = dataCategories.map((category, index) => {
+        console.log("Rendering category:", category);
         return (
-            <ul key={index}>
-                <li key={index}>{category}</li>
-            </ul>
-        )
-
-
-    })
-
-    return (
-        <div className="categoriesContainer">
-            <h1>Categories</h1>
-            <div className="cardsCategories">
-
-                {dataCategories}
-
+            <div className="category" key={index}>
+                <img className="category-image" src="https://via.placeholder.com/100" alt="" />
+                <span className="category-name">{category.name}</span>
             </div>
-        </div>
-    )
-}
+        );
+    });
 
-export default Categories
+    console.log("Rendered categories:", renderCategories);
+
+    return <div className="categories">
+        {renderCategories}
+    </div>;
+};
+
+export default Categories;

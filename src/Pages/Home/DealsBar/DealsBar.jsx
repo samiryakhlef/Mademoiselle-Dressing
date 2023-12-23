@@ -71,7 +71,7 @@ export const DealsBar = () => {
 
 
     const renderCard = (card) => {
-        console.log("card", card);
+
         const { id, photo, title, price } = card;
 
         const handleClick = () => {

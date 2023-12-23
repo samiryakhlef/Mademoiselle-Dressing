@@ -1,5 +1,7 @@
 export const NewArrivals = ()=>{
     return(
-        <div>New Arrivals</div>
+        <div>
+            <h1>Nouveautés</h1>
+        </div>
     )
 }

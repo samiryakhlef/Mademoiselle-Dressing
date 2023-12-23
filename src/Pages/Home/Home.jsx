@@ -1,7 +1,9 @@
 import { useState } from "react";
 import "./Home.css";
+import "../../Components/ExclusiveReleases/ExclusiveReleases.css";
 import { DealsBar } from "./DealsBar/DealsBar";
 import Categories from "./Categories/Categories";
+import { ExclusiveReleases } from "../../Components/ExclusiveReleases/ExclusiveReleases";
 
 /**
  * Composant Home.
@@ -23,13 +25,14 @@ export const Home = () => {
 
   // Rendu du composant
   return (
-    <div className="container">
+    <div className="container-home">
       <img src={photo} alt="Photo" />
       <div className="text">{text}</div>
       <button onClick={handleClick}>{buttonText}</button>
       <div>
         <Categories />
         <DealsBar />
+        <ExclusiveReleases/>
       </div>
     </div>
   );

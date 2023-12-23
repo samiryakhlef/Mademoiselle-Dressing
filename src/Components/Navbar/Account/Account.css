@@ -1,13 +1,8 @@
 .account a {
     color: #000;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    padding: 0 5px;
+    padding: 5px;
 }
 
-.account span {
-    margin: 0 10px;
-    font-weight: bold;
-    font-size: 16px;
+.account a:hover {
+    text-decoration: underline;
 }

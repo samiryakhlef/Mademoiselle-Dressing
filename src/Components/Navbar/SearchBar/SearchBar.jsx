@@ -11,7 +11,7 @@ export const SearchBar = () => {
 
   return (
     <div className="search-bar">
-      <input type="text" placeholder="Search..." value={searchText} onChange={handleChange} />
+      <input type="text" placeholder="Rechercher..." value={searchText} onChange={handleChange} />
       <SearchOutlined className="search-icon" />
     </div>
   );
