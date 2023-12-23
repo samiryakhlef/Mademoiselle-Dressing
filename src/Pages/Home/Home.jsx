@@ -4,6 +4,8 @@ import "../../Components/ExclusiveReleases/ExclusiveReleases.css";
 import { DealsBar } from "./DealsBar/DealsBar";
 import Categories from "./Categories/Categories";
 import { ExclusiveReleases } from "../../Components/ExclusiveReleases/ExclusiveReleases";
+import Newsletter from "../../Components/Newsletter/Newsletter";
+import Footer from "../../Components/Footer/Footer";
 
 /**
  * Composant Home.
@@ -33,6 +35,8 @@ export const Home = () => {
         <Categories />
         <DealsBar />
         <ExclusiveReleases/>
+        <Newsletter/>
+        <Footer/>
       </div>
     </div>
   );

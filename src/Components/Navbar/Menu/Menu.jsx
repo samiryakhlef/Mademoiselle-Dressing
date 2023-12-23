@@ -30,6 +30,9 @@ export const Menu = () => {
                 <li className={currentPath === '/a-propos' ? 'active' : ''}>
                     <Link to="/a-propos">A Propos</Link>
                 </li>
+                <li className={currentPath === '/contact' ? 'active' : ''}>
+                    <Link to="/contact">Contact</Link>
+                </li>
             </ul>
         </>
     );
