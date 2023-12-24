@@ -10,7 +10,7 @@ export const Account = () => {
         <div className="account">
             <Link to="/connexion"><Person2Outlined /></Link>
             <a href="#"><FavoriteBorder /></a>
-            <a href="#"><ShoppingBagOutlined /></a>
+            <Link to="/panier"><ShoppingBagOutlined /></Link>
         </div>
     )
 }
