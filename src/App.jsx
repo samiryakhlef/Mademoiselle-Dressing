@@ -14,6 +14,7 @@ import {ShoesCollections} from './Components/Collections/ShoesCollections/ShoesC
 import {AccessoriesCollection } from "./Components/Collections/AccessoriesCollection/AccessoriesCollection.jsx"
 import { LoginPage } from "./Pages/Auth/Login/LoginPage.jsx";
 import { RegisterPage } from "./Pages/Auth/Register/RegisterPage.jsx";
+import { CartPages } from "./Pages/Cart/CartPages.jsx";
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
           <Route path="/categories/:id/accessoires" element={<AccessoriesCollection/>} />
           <Route path="/connexion" element={<LoginPage />} />
           <Route path="/inscription" element={<RegisterPage/>}/>
+          <Route path="/panier" element={<CartPages/>}/>
+
+
         </Routes>
       </BrowserRouter>
     </>
