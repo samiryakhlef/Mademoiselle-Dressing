@@ -8,7 +8,7 @@ export const Newsletter = () => {
                 <p className="newsletter-description">Abonnez-vous à notre newsletter pour être aux premières loges des dernières tendances, offres spéciales et événements exclusifs.</p>
             </div>
             <div className="newsletter-content">
-                <input className="newsletter-input" type="email" name="email" id="newsletter-email" placeholder="Enter your email" />
+                <input className="newsletter-input" type="email" name="email" id="newsletter-email" placeholder="Enter your email" autoComplete="email" />
                 <button className="newsletter-button">Subscribe</button>
             </div>
         </div>

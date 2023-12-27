@@ -1,0 +1,59 @@
+/* src\Components\Collections\WomensCollections\WomensCollections.css
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filterTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.womensTitle {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.womensInput {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+} */

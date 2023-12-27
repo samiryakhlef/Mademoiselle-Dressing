@@ -26,6 +26,12 @@ export const Menu = () => {
                 <li className={currentPath === '/accessoires' ? 'active' : ''}>
                     <Link to="/accessoires">Accessoires</Link>
                 </li>
+                <li className={currentPath === '/hommes' ? 'active' : ''}>
+                    <Link to="/hommes">Hommes</Link>
+                </li>
+                <li className={currentPath === '/chaussures' ? 'active' : ''}>
+                    <Link to="/chaussures">Chaussures</Link>
+                </li>
 
                 <li className={currentPath === '/a-propos' ? 'active' : ''}>
                     <Link to="/a-propos">A Propos</Link>

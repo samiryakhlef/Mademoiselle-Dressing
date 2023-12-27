@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./Home.css";
 import "../../Components/ExclusiveReleases/ExclusiveReleases.css";
-import { DealsBar } from "./DealsBar/DealsBar";
-import { Categories } from "./Categories/Categories";
+import { DealsBar } from "../../Components/DealsBar/DealsBar";
+import { Categories } from "../../Components/Categories/Categories";
 import { ExclusiveReleases } from "../../Components/ExclusiveReleases/ExclusiveReleases";
 import { Newsletter } from "../../Components/Newsletter/Newsletter";
 import { Footer } from "../../Components/Footer/Footer";

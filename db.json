@@ -4,61 +4,71 @@
             "id": 1,
             "name": "Dress 1",
             "price": 50,
-            "category": "Women Clothing"
+            "category": "Women Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 2,
             "name": "Blouse 2",
             "price": 30,
-            "category": "Women Clothing"
+            "category": "Women Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 3,
             "name": "Jeans 3",
             "price": 40,
-            "category": "Women Clothing"
+            "category": "Women Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 4,
             "name": "Skirt 4",
             "price": 35,
-            "category": "Women Clothing"
+            "category": "Women Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 5,
             "name": "T-shirt 5",
             "price": 20,
-            "category": "Women Clothing"
+            "category": "Women Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 6,
             "name": "Jacket 6",
             "price": 60,
-            "category": "Women Clothing"
+            "category": "Women Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 7,
             "name": "Sweater 7",
             "price": 45,
-            "category": "Women Clothing"
+            "category": "Women Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 8,
             "name": "Leggings 8",
             "price": 25,
-            "category": "Women Clothing"
+            "category": "Women Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 9,
             "name": "Coat 9",
             "price": 70,
-            "category": "Women Clothing"
+            "category": "Women Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 10,
             "name": "Pants 10",
             "price": 55,
-            "category": "Women Clothing"
+            "category": "Women Clothing",
+            "image": "https://via.placeholder.com/600x600"
         }
     ],
     "mens": [
@@ -66,61 +76,71 @@
             "id": 11,
             "name": "Shirt 11",
             "price": 40,
-            "category": "Mens Clothing"
+            "category": "Mens Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 12,
             "name": "Trousers 12",
             "price": 35,
-            "category": "Mens Clothing"
+            "category": "Mens Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 13,
             "name": "Jacket 13",
             "price": 60,
-            "category": "Mens Clothing"
+            "category": "Mens Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 14,
             "name": "Sweater 14",
             "price": 45,
-            "category": "Mens Clothing"
+            "category": "Mens Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 15,
             "name": "Jeans 15",
             "price": 50,
-            "category": "Mens Clothing"
+            "category": "Mens Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 16,
             "name": "Tie 16",
             "price": 15,
-            "category": "Mens Clothing"
+            "category": "Mens Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 17,
             "name": "Shorts 17",
             "price": 25,
-            "category": "Mens Clothing"
+            "category": "Mens Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 18,
             "name": "Suit 18",
             "price": 80,
-            "category": "Mens Clothing"
+            "category": "Mens Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 19,
             "name": "Hoodie 19",
             "price": 35,
-            "category": "Mens Clothing"
+            "category": "Mens Clothing",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 20,
             "name": "Polo Shirt 20",
             "price": 30,
-            "category": "Mens Clothing"
+            "category": "Mens Clothing",
+            "image": "https://via.placeholder.com/600x600"
         }
     ],
     "accessories": [
@@ -128,61 +148,71 @@
             "id": 21,
             "name": "Necklace 21",
             "price": 20,
-            "category": "Accessories"
+            "category": "Accessories",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 22,
             "name": "Sunglasses 22",
             "price": 15,
-            "category": "Accessories"
+            "category": "Accessories",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 23,
             "name": "Hat 23",
             "price": 25,
-            "category": "Accessories"
+            "category": "Accessories",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 24,
             "name": "Watch 24",
             "price": 30,
-            "category": "Accessories"
+            "category": "Accessories",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 25,
             "name": "Handbag 25",
             "price": 40,
-            "category": "Accessories"
+            "category": "Accessories",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 26,
             "name": "Earrings 26",
             "price": 18,
-            "category": "Accessories"
+            "category": "Accessories",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 27,
             "name": "Scarf 27",
             "price": 22,
-            "category": "Accessories"
+            "category": "Accessories",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 28,
             "name": "Belt 28",
             "price": 12,
-            "category": "Accessories"
+            "category": "Accessories",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 29,
             "name": "Gloves 29",
             "price": 15,
-            "category": "Accessories"
+            "category": "Accessories",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 30,
             "name": "Wallet 30",
             "price": 25,
-            "category": "Accessories"
+            "category": "Accessories",
+            "image": "https://via.placeholder.com/600x600"
         }
     ],
     "shoes": [
@@ -190,61 +220,71 @@
             "id": 31,
             "name": "Sneakers 31",
             "price": 50,
-            "category": "Shoes"
+            "category": "Shoes",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 32,
             "name": "Boots 32",
             "price": 45,
-            "category": "Shoes"
+            "category": "Shoes",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 33,
             "name": "Sandals 33",
             "price": 30,
-            "category": "Shoes"
+            "category": "Shoes",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 34,
             "name": "High Heels 34",
             "price": 55,
-            "category": "Shoes"
+            "category": "Shoes",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 35,
             "name": "Running Shoes 35",
             "price": 60,
-            "category": "Shoes"
+            "category": "Shoes",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 36,
             "name": "Loafers 36",
             "price": 40,
-            "category": "Shoes"
+            "category": "Shoes",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 37,
             "name": "Slippers 37",
             "price": 20,
-            "category": "Shoes"
+            "category": "Shoes",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 38,
             "name": "Flats 38",
             "price": 35,
-            "category": "Shoes"
+            "category": "Shoes",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 39,
             "name": "Oxfords 39",
             "price": 50,
-            "category": "Shoes"
+            "category": "Shoes",
+            "image": "https://via.placeholder.com/600x600"
         },
         {
             "id": 40,
             "name": "Flip Flops 40",
             "price": 15,
-            "category": "Shoes"
+            "category": "Shoes",
+            "image": "https://via.placeholder.com/600x600"
         }
     ]
 }

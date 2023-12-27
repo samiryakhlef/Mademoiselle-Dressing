@@ -1,9 +1,9 @@
-
+import { AccessoriesCollection } from '../../Components/Collections/AccessoriesCollection/AccessoriesCollection'
 
 export const Accessories = () => {
   return (
-    <div>
-      Accessories
-    </div>
+    <>
+      <AccessoriesCollection />
+    </>
   )
 }

@@ -1,10 +1,10 @@
 import { WomensCollections } from "../../Components/Collections/WomensCollections/WomensCollections"
 
 
-export const WomensCollection = () => {
+export const WomensCollectionPages = () => {
   return (
-    <div>
+    <>
       <WomensCollections />
-    </div>
+    </>
   )
 }

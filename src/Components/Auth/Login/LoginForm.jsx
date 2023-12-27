@@ -26,11 +26,11 @@ export const LoginForm = () => {
             <form onSubmit={handleSubmit}>
                 <div>
                     <label className="login-form-label">Email:</label>
-                    <input className="login-form-input" type="email" value={email} onChange={handleEmailChange} />
+                    <input className="login-form-input" type="email" id="email" name="email" value={email} onChange={handleEmailChange} />
                 </div>
                 <div>
                     <label className="login-form-label">Mot de passe:</label>
-                    <input className="login-form-input" type="password" value={password} onChange={handlePasswordChange} />
+                    <input className="login-form-input" type="password" id="password" name="password" value={password} onChange={handlePasswordChange} />
                 </div>
                 <button className="login-form-submit-button" type="submit">Se connecter</button>
             </form>
